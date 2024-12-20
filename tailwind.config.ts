@@ -8,9 +8,16 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      // colors: {
+      //   background: "var(--background)",
+      //   foreground: "var(--foreground)",
+      // },
+
+      backgroundImage: {
+        'dots-pattern': 'radial-gradient(currentColor 0.5px, transparent 0.5px)',
+      },
+      backgroundSize: {
+        'dots-size': '10px 10px',
       },
     },
   },
